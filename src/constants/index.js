@@ -25,7 +25,7 @@ export const stats = [
 ]
 export const navLinks = [
     { href: "/home", label: "Home" },
-    { href: "/about", label: "About Us" },
+    { href: "/about", label: "AboutUs" },
     { href: '/event', label: 'Event' },
     { href: '/venue', label: 'Venue' },
     { href: '/contact', label: 'ContactUs' }

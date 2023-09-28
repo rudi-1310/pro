@@ -1,43 +1,53 @@
 import React, { useState } from 'react'
+import { navLinks } from '../constants'
+import { Link } from 'react-router-dom'
+import { AiOutlineClose, AiOutlineMenu, AiOutlineLogout } from 'react-icons/ai';
+export default function Nav() {
+    const [nav, setNav] = useState(false);
 
+    const handleNav = () => {
+        setNav(!nav);
+    };
 
-const Nav = () => {
-    let Links = [
-        { name: "HOME", link: "/" },
-        { name: "SERVICE", link: "/" },
-        { name: "ABOUT", link: "/" },
-        { name: "BLOG'S", link: "/" },
-        { name: "CONTACT", link: "/" },
-    ];
-    let [open, setOpen] = useState(false);
     return (
-        <div className='shadow-md w-full fixed top-0 left-0'>
-            <div className='md:flex items-center justify-between bg-white py-4 md:px-10 px-7'>
-                <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-      text-gray-800'>
-                    <span className='text-3xl text-indigo-600 mr-1 pt-2'>
-                        <ion-icon name="logo-ionic"></ion-icon>
-                    </span>
-                    Designer
+        <div className='padding-x py-8 absolute z-10 w-full'>
+            <nav className='flex text-gray-400 text-2xl justify-between items-center max-container'>
+                <div className='text-purple-300'>
+                    Evento
                 </div>
-
-                <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
-                    <ion-icon name={open ? 'close' : 'menu'}></ion-icon>
-                </div>
-
-                <ul className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
+                <ul className='flex-1 flex justify-center items-center gap-12 max-lg:hidden'>
                     {
-                        Links.map((link) => (
-                            <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7'>
-                                <a href={link.link} className='text-gray-800 hover:text-gray-400 duration-500'>{link.name}</a>
+                        navLinks.map((item) => (
+                            <li key={item.label}>
+                                <Link to={item.href}
+                                    className='leading-normal text-lg text-gray-400 '>{item.label}</Link>
+                            </li>
+                        ))
+                    }
+                </ul>
+                <div onClick={handleNav} className='block lg:hidden '>
+                    {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+                </div>
+                <ul className={nav ? 'lg:hidden fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-black z-10 ease-in-out duration-500' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+                    <h1 className='w-full text-3xl font-bold text-purple-300 m-4'>Evento</h1>
+                    {
+                        navLinks.map((item) => (
+                            <li key={item.label} className='p-4 border-b border-gray-600'>
+                                <Link to={item.href}
+                                >{item.label}</Link>
                             </li>
                         ))
                     }
 
                 </ul>
-            </div>
+                <ul className='flex justify-center items-center gap-6 max-lg:hidden'>
+                    <li className='leading-normal text-lg text-gray-400'>
+                        <Link to='/'><AiOutlineLogout size={20} /></Link>
+                    </li>
+
+                </ul>
+
+            </nav>
         </div>
     )
 }
-
-export default Nav
