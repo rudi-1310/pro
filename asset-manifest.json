@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/pro/static/css/main.c6586422.css",
+    "main.js": "/pro/static/js/main.32905052.js",
+    "static/media/sadhvi.png": "/pro/static/media/sadhvi.638e509baa5b61461f61.png",
+    "static/media/merchant.png": "/pro/static/media/merchant.2082381f2a99b2bc0655.png",
+    "static/media/ansiha.png": "/pro/static/media/ansiha.3c30d5e329eeb6157aaa.png",
+    "static/media/prabhu.png": "/pro/static/media/prabhu.2fddfa27cdcea587b8cf.png",
+    "static/media/ganesh.png": "/pro/static/media/ganesh.58e2a199aad4e416e6be.png",
+    "static/media/shiamak.png": "/pro/static/media/shiamak.2c0d56ecee7def2ecf3b.png",
+    "static/media/HeroImg.png": "/pro/static/media/HeroImg.97b2c65d63e5df6a80b7.png",
+    "static/media/Religous.jpg": "/pro/static/media/Religous.b8f183f20438fb6df1e1.jpg",
+    "static/media/about4.jpg": "/pro/static/media/about4.ed628cbdcb00fcf675fd.jpg",
+    "static/media/Social.jpg": "/pro/static/media/Social.6c6952bbd2f831fe789d.jpg",
+    "static/media/BgImg1.jpg": "/pro/static/media/BgImg1.3632f2dfe29328d1164c.jpg",
+    "static/media/about3.jpg": "/pro/static/media/about3.ca7d45cca4392b3c0c55.jpg",
+    "static/media/about5.jpg": "/pro/static/media/about5.507e15474399f96beeea.jpg",
+    "static/media/seminars.jpg": "/pro/static/media/seminars.57c20f08f5fd955841c5.jpg",
+    "static/media/con.jpg": "/pro/static/media/con.e963b52c3226e151d22c.jpg",
+    "static/media/Contact.jpg": "/pro/static/media/Contact.b46bb2d7f4559f8ea97d.jpg",
+    "static/media/wedding.jpg": "/pro/static/media/wedding.2ebbc337360b3a7821de.jpg",
+    "static/media/about2.jpg": "/pro/static/media/about2.a9c3e76e62a4820fe560.jpg",
+    "static/media/instagram.svg": "/pro/static/media/instagram.404464f2c97fb7b9c059cbb20c77d954.svg",
+    "static/media/twitter.svg": "/pro/static/media/twitter.14511ce21d4a740c39d86f3a18959719.svg",
+    "static/media/copyrightSign.svg": "/pro/static/media/copyrightSign.e791767c5399c508c403f2a3d2703ca9.svg",
+    "static/media/facebook.svg": "/pro/static/media/facebook.be08ffcfacec5284de4d31930c5ad9e8.svg",
+    "index.html": "/pro/index.html",
+    "main.c6586422.css.map": "/pro/static/css/main.c6586422.css.map",
+    "main.32905052.js.map": "/pro/static/js/main.32905052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6586422.css",
+    "static/js/main.32905052.js"
+  ]
+}
