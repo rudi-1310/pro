@@ -60,10 +60,7 @@ body,
         @apply text-gray-400 text-lg leading-7;
     }
 }
-.bgImg1{
-    background-image: url('/Users/rudrakshchavda/Desktop/event management/pro/src/assets/images/BgImg1.jpg');
-    background-repeat: no-repeat;
-}
+
 .HeroImg{
     border:2px solid black;
 }
