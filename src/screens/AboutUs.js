@@ -59,23 +59,7 @@ export default function AboutUs() {
 
                 </section>
             </ScrollFade>
-            {/* <section className='px-2 text-gray-700 bg-gray-400 justify-center items-center h-36 flex flex-row gap-28 '>
-                <div className='flex flex-col'>
-                    <h1 className='relative text-6xl '>10,000</h1>
-                    <p className='text-3xl'>Wedding vendors</p>
-                </div>
-                <div className='flex flex-col'>
-                    <h1 className='relative text-6xl'>20,000</h1>
-                    <p className='text-3xl'>Anual wedding</p>
-                </div>
-                <div className='flex flex-col max-md:hidden'>
-                    <h1 className='relative text-6xl'>1,000</h1>
-                    <p className='text-3xl'>Wedding Venues</p>
-                </div>
-                <div className='flex flex-col max-xl:hidden'>
-                    <h1 className='relative text-6xl'>1.5M</h1>
-                    <p className='text-3xl'>Monthly Followers</p></div>
-            </section> */}
+
             <ScrollFade>
 
                 <section className='card1 p-6 '>
@@ -115,7 +99,6 @@ export default function AboutUs() {
                 </section>
             </ScrollFade>
             <ScrollFade>
-
                 <section className="bg-indigo-950 text-white py-16">
                     <div className="container mx-auto">
                         <div className=" card p-6 rounded-lg ">
@@ -134,7 +117,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </section>
-            </ScrollFade >
+            </ScrollFade>
             <ScrollFade >
                 <section className=' bg-black padding-x padding-t pb-8'><Footer /></section>
             </ScrollFade>

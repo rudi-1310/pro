@@ -37,7 +37,7 @@ app.post('/verify', async (req, res) => {
         // secure: false, // true for 465, false for other ports
         auth: {
             user: 'rudrakshbchavda@gmail.com',
-            pass: 'dlerdqccxvloppnd',
+            pass: 'blfs fety khxk puxq',
         },
     });
 

@@ -1,5 +1,5 @@
 import copyrightSign from "../assets/icons/copyrightSign.svg";
-
+import evento from '../assets/icons/evento.png'
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
@@ -7,7 +7,8 @@ const Footer = () => {
         <footer className='max-container '>
             <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
                 <div className='flex flex-col items-start text-white text-4xl'>
-                    <a href='/'>
+                    <a href='/' className="flex flex-row gap-4">
+                        <img src={evento} alt="Logo" className="w-10 h-10 text-blue-400" />
                         Evento
                     </a>
                     <p className='mt-6 text-base leading-7 font-montserrat text-white sm:max-w-sm '>

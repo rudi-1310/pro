@@ -31,6 +31,11 @@ function App() {
           path="/venues/:id"
           element={<VenueDetail venues={PopularVenueGallery} />}
         />
+        <Route
+          exact
+          path="/events/:id"
+          element={<VenueDetail venues={PopularVenueGallery} />}
+        />
         <Route element={<NotFound />} />
       </Routes>
     </Router>

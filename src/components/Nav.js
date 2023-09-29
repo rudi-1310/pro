@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { navLinks } from '../constants'
 import { Link } from 'react-router-dom'
+import evento from '../assets/icons/evento.png'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineLogout } from 'react-icons/ai';
 export default function Nav() {
     const [nav, setNav] = useState(false);
@@ -12,7 +13,8 @@ export default function Nav() {
     return (
         <div className='padding-x py-8 absolute z-10 w-full'>
             <nav className='flex text-gray-400 text-2xl justify-between items-center max-container'>
-                <div className='text-purple-300'>
+                <div className='text-purple-300 flex flex-row justify-center items-center gap-4'>
+                    <img src={evento} alt="" width={10} height={10} className='m-0 w-[50px] h-[50px]' />
                     Evento
                 </div>
                 <ul className='flex-1 flex justify-center items-center gap-12 max-lg:hidden'>

@@ -36,7 +36,7 @@ export default function About() {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">About Us</h2>
                     <p className="mt-6 text-lg leading-8 text-gray-300">
-                        Welcome to Eventify, where we turn your events into unforgettable moments without stretching your budget. With a passion for creating remarkable experiences, we've built a platform that redefines event planning by making quality services accessible to everyone.
+                        Welcome to Evento, where we turn your events into unforgettable moments without stretching your budget. With a passion for creating remarkable experiences, we've built a platform that redefines event planning by making quality services accessible to everyone.
                     </p>
                 </div>
                 <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
